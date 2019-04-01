@@ -4,7 +4,8 @@ The verilog implementation of digit-serial multiplier based on systolic array on
 Including verilog src, testbench for functional simulation and SOC verification on FPGA.
 
 # Algorithm for MSB-first Multiplication in GF(2^m)
-Input: A(x), B(x), G(x)  
+Input: A(x), B(x), G(x)
+
 Output: P(x) = A(x)B(x)modG(x)
 t(j,0)=0, 0<=j<=m-1
 t(0,i)=0, 1<=i<=m-1
